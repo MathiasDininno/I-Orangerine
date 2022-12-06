@@ -1,0 +1,296 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.parrafoMusee{
+    position: absolute;
+    padding: 62px 0px 0px 210px;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.h1Musee{
+    position: absolute;
+    padding: 84px 0px 0px 30px;
+    font-size: 53px;
+    color: #FFFFFF;
+
+}
+
+.imgPrimerParte{
+    width: 100%;
+}
+
+#segundaParte{
+    font-family: 'Open Sans';
+    padding: 10% 10%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.parrafoSegundaParte{
+    font-size: 86%;
+    width: 100%;
+    text-align: start;
+}
+
+.fondoBotonSegundaParte{
+    padding: 12px 5px;
+    width: 60%;
+    margin: 4% 0% 0% 15%;
+    text-align: center;
+    border-radius: 4%;
+    font-size: 100%;
+    background-color: #FF761A;
+}
+
+.botonSegundaParte{
+    font-size: 89%;
+    padding: 0% 4% 0% 4%;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+.cajaTercerParte{
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    height: 460px;
+    background-color: #3795F5;
+}
+
+.infoTercera{
+    font-family: 'Open Sans';
+    font-size: 117%;
+    padding: 8% 0% 0% 18%;
+    color: #FFFFFF;
+}
+
+.jardinTercera{
+    font-family: 'Open Sans';
+    font-size: 117%;
+    margin: 8% 0% 10% 15%;
+    color: #FFFFFF;
+}
+
+.relojTercera{
+    font-family: 'Open Sans';
+    font-size: 117%;
+    margin: 8% 0% 10% 15%;
+    color: #FFFFFF;
+}
+
+.trenTercera{
+    font-family: 'Open Sans';
+    font-size: 117%;
+    margin: 8% 0% 10% 15%;
+    color: #FFFFFF;
+}
+
+.fondoTercer{
+    padding: 12px 5px;
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #3B54A6;
+}
+
+.botonTercer{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cajaCuartaParte{
+    width: 90%;
+    padding: 5% 0% 0% 5%;
+    font-family: 'Open Sans';
+    color: #18191F;
+}
+
+.tituloCuartaParte{
+    width: 90%;
+    padding: 10% 0% 6% 0%;
+    color: #3B54A6;
+    font-family: 'Berthold Walbaum Book';
+    font-weight: 500;
+    font-size: 233%;
+}
+
+.botonCuarta{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #FF761A;
+}
+
+.tituloQuintaParte{
+    padding: 7%;
+    font-size: 200%;
+    margin-top: 5%;
+    font-family: 'Berthold Walbaum Book';
+    font-weight: 500;
+    color: #3B54A6;
+}
+
+.cajaUno{
+    width: 311px;
+    margin: 10% 0% 0% 7.5%;
+    background-color: #E5E5E5;
+}
+
+.imgCajaUno{
+    width: 100%;
+}
+
+.h3CajaUno{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    width: 100%;
+    font-size: 130%;
+    padding: 4%;
+    color: #000000;
+}
+
+.h5CajaUno{
+    padding: 4%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 117%;
+    color: #000000;
+}
+
+.lineaQuinta{
+    margin-left: 31px;
+    font-size: 230%;
+    color: #C4C4C4;
+}
+
+.pCajaUno{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 4%;
+    color: #000000;
+}
+
+.botonQuinta{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 140%;
+    margin-left: 125px;
+    color: #FF761A;
+}
+
+.h1Sexta{
+    font-family: 'Berthold Walbaum Book';
+    font-size: 240%;
+    font-weight: 500;
+    padding: 7%;
+    margin-top: 5%;
+    color: #3B54A6;
+}
+
+.fondoBotonSexta{
+    font-family: 'Open Sans';
+    width: 50%;
+    text-align: center;
+    border-radius: 4%;
+    font-size: 93%;
+    padding: 8px 5px;
+    margin: 4% 0% 0% 26%;
+    background-color: #FF761A;
+}
+
+.botonSexta{
+    font-size: 89%;
+    padding: 0% 4% 0% 4%;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+.h1Septima{
+    font-family: 'Berthold Walbaum Book';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 277%;
+    padding: 4%;
+    margin-top: 10%;
+    color: #3B54A6;
+}
+
+.imgSeptima{
+    margin: 6% 0% 10% 7%;
+}
+
+.h3Septima{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin: -23% 0% 0% 13%;
+    color: #FFFFFF;
+}
+
+.fondoSeptima{
+    margin: 7% 0% 0% 8.5%;
+}
+
+.botonSeptima{
+    color: #FF761A;
+    text-decoration: none;
+}
+
+.h1Octava{
+    font-family: 'Berthold Walbaum Book';
+    font-weight: 500;
+    font-size: 239%;
+    padding: 8%;
+    color: #3B54A6;
+}
+
+.imgOctava{
+    padding: 8%;
+}
+
+.fotoUnoOcta{
+    width: 100%;
+}
+
+.fotoDosOcta{
+    margin: -24% 0% 20% 0%;
+    border-top: 10px solid #FFFFFF;
+    border-right: 10px solid #FFFFFF;
+    width: 64%;
+}
+
+.h3Octava{
+    font-size: 92%;
+    width: 85%;
+    margin: 0% 9% 10% 9%;
+    color: #18191F
+}
+
+.botonOcta{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    padding: 10%;
+    color: #FF761A;
+}
+
+.footer{
+    padding: 20%;
+    background-color: #3B54A6;
+}
