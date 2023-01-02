@@ -9,6 +9,14 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     <title>I'Orangerine</title>
     <meta name="description" content="">
     <meta name="author" content="Mathias Dininno">
@@ -23,42 +31,45 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">≡</span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <img src="./img/imgLogo.png" alt="">
-                <img src="./img/Lupa.png" alt="">
+                <img class="logo" src="./img/imgLogo.png" alt="">
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <h2>Actualités</h2>
+                            <h2 class="h2Menu">Actualités</h2>
                         </li>
                         <li class="nav-item">
-                            <h2>Expositions</h2>
+                            <h2 class="h2Menu">Expositions</h2>
                         </li>
                         <li class="nav-item">
-                            <h2>Visite</h2>
+                            <h2 class="h2Menu">Visite</h2>
                         </li>
                         <li class="nav-item">
-                            <h2>Collection</h2>
+                            <h2 class="h2Menu">Collection</h2>
                         </li>
                         <li class="nav-item">
-                            <h2>Musée</h2>
+                            <h2 class="h2Menu">Musée</h2>
                         </li>
                         <li class="nav-item">
-                            <h2>Billetterie </h2>
-                        </li>
-                        <li class="nav-item">
-                            <h2>FR - EN</h2>
-                        </li>
+                            <h2 class="h2Menu">Billetterie </h2>
+                        </li> 
                     </ul>
+                    <div class="fr-en">
+                        <h2 class="fr">FR</h2>
+                        <h2 class="fren">-</h2>
+                        <h2 class="en">EN</h2>
+                    </div>
                 </div>
+                <img src="./img/Lupa.png" alt="">
             </div>
         </nav>
+
         <div id="primerParte">
             <img class="imgPrimerParte" src="./img/Claude_Monet_IMG_2064 1.png" alt="">
             <img class="imgMusee" src="./img/musee.png" alt="">
             <br>
-            <p class="parrafoSegundaParte">Réservation obligatoire pour tous les visiteurs.
+            <p class="parrafoSegundaParte">Réservation obligatoire pour tous les visiteurs. <br>
                 Nous vous rappelons que le musée ouvre à 9h; profitez de la faible affluence de la matinée pour votre
                 visite! Toutes les informations sur les conditions d'accès et de visite sont à retrouver ici.</p>
             <div class="fondoBotonSegundaParte">
@@ -69,11 +80,19 @@
         <div id="tercerParte">
             <div class="cajaTercerParte">
                 <p class="infoTercera">Informations pratiques</p>
-                <p class="jardinTercera"><i class="bi bi-geo-alt">Jardin des Tuileries, Place de la Concorde, 75001
-                        PARIS.</i></p>
-                <p class="relojTercera">🕕Ouvert de 9h à 18h.Fermé le mardi.</p>
-                <p class="trenTercera">🚆 Métro: Concorde, lignes 1, 8 et 12.
-                    Bus: lignes 24, 42, 52, 72, 73, 84 et 94.</p>
+                <div class="divTercera">
+                    <img class="imgTercera" src="./img/Ubicacion.png" alt="">
+                    <p class="jardinTercera">Jardin des Tuileries, Place de la Concorde, 75001 PARIS.</p>
+                </div>
+                <div class="divTercera">
+                    <img class="imgTercera" src="./img/Reloj.png" alt="">
+                    <p class="relojTercera">Ouvert de 9h à 18h.Fermé le mardi.</p>
+                </div>
+                <div class="divTercera">
+                    <img class="imgTercera" src="./img/Metro.png" alt="">
+                    <p class="trenTercera">Métro: Concorde, lignes 1, 8 et 12.
+                        Bus: lignes 24, 42, 52, 72, 73, 84 et 94.</p>
+                </div>
                 <div class="fondoTercer">
                     <a href="#" class="botonTercer">Billetterie</a>
                 </div>
@@ -129,7 +148,7 @@
                 <div class="cajaUno card" style="width: 18rem;">
                     <img class="imgCajaUno" src="./img/Card4.png" alt="">
                     <h3 class="h3CajaUno">Soutine / De Kooning</h3>
-                    <h5 class="h5Caja">Soutine a en effet marqué la génération des peintres d’après-guerre par la
+                    <h5 class="h5CajaUno">Soutine a en effet marqué la génération des peintres d’après-guerre par la
                         force expressive de sa peinture et sa figure...</h5>
                     <p class="pCajaUno">15 sep 2021 - 10 jan 2022</p>
                 </div>

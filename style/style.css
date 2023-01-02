@@ -8,6 +8,29 @@ body {
     height: 100vh;
 }
 
+.logo {
+    width: 22px;
+    margin-right: 41px;
+}
+
+.navbar-toggler {
+    border: 1px solid black;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.nav-item {
+    color: #1F2933;
+    font-size: 23.93px;
+    margin-top: 30px;
+}
+
+.h2Menu {
+    font-size: 67%;
+}
+
 #primerParte {
     text-align: -webkit-center;
 }
@@ -76,7 +99,7 @@ body {
 .cajaTercerParte {
     display: grid;
     position: relative;
-    width: 315px;
+    width: 320px;
     margin-bottom: 7%;
     padding-right: 30px;
     background-color: #3795F5;
@@ -85,28 +108,40 @@ body {
 .infoTercera {
     font-family: 'Open Sans';
     font-size: 117%;
-    padding: 8% 0% 0% 18%;
+    padding: 8% 10% 0% 5%;
     color: #FFFFFF;
 }
 
+.divTercera {
+    display: grid;
+    grid-template-columns: 51px 83%;
+}
+
+.imgTercera {
+    padding: 18px 0px 0px 39px;
+}
+
 .jardinTercera {
-    font-family: 'Open Sans';
     font-size: 117%;
-    margin: 8% 0% 10% 15%;
+    margin: 13px 0px 8px 18px;
+    font-family: 'Open Sans';
+    text-align: initial;
     color: #FFFFFF;
 }
 
 .relojTercera {
-    font-family: 'Open Sans';
     font-size: 117%;
-    margin: 8% 0% 10% 15%;
+    margin: 13px 0px 8px 18px;
+    font-family: 'Open Sans';
+    text-align: initial;
     color: #FFFFFF;
 }
 
 .trenTercera {
-    font-family: 'Open Sans';
     font-size: 117%;
-    margin: 8% 0% 0% 15%;
+    margin: 15px 0px 8px 18px;
+    font-family: 'Open Sans';
+    text-align: initial;
     color: #FFFFFF;
 }
 
@@ -133,8 +168,8 @@ body {
 
 .tituloCuartaParte {
     text-align: -webkit-left;
-    font-family: 'Berthold Walbaum Book';
-    font-weight: 500;
+    font-family: 'Lora';
+    font-weight: 700;
     font-size: 233%;
     color: #3B54A6;
 }
@@ -163,8 +198,8 @@ body {
     width: 280px;
     font-size: 200%;
     margin-top: 5%;
-    font-family: 'Berthold Walbaum Book';
-    font-weight: 500;
+    font-family: 'Lora';
+    font-weight: 700;
     text-align: left;
     color: #3B54A6;
 }
@@ -180,20 +215,22 @@ body {
 }
 
 .h3CajaUno {
-    font-family: 'Open Sans';
-    font-weight: 700;
     width: 100%;
+    min-height: 100px;
+    font-weight: 700;
     font-size: 130%;
     padding: 4%;
+    font-family: 'Open Sans';
     color: #000000;
 }
 
 .h5CajaUno {
+    min-height: 150px;
     padding: 4%;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 117%;
+    font-family: 'Open Sans';
+    font-style: normal;
     color: #000000;
 }
 
@@ -231,9 +268,9 @@ body {
 .h1Sexta {
     width: 290px;
     text-align: left;
-    font-family: 'Berthold Walbaum Book';
+    font-family: 'Lora';
     font-size: 240%;
-    font-weight: 500;
+    font-weight: 700;
     padding: 7%;
     margin: 5% 0% 0% -10%;
     color: #3B54A6;
@@ -271,12 +308,12 @@ body {
 }
 
 .h1Septima {
-    font-family: 'Berthold Walbaum Book';
+    font-family: 'Lora';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 277%;
     padding: 4%;
-    margin: 10% 0% 4% -33%;
+    margin: 50px 84px 50px 0px;
     color: #3B54A6;
 }
 
@@ -290,15 +327,15 @@ body {
     color: #FFFFFF;
 }
 
-.imgActuali{
+.imgActuali {
     display: none;
 }
 
-.h3Actuali{
+.h3Actuali {
     display: none;
 }
 
-.imgSeptima5{
+.imgSeptima5 {
     display: none;
 }
 
@@ -318,8 +355,8 @@ body {
 }
 
 .h1Octava {
-    font-family: 'Berthold Walbaum Book';
-    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: 700;
     font-size: 239%;
     padding: 8%;
     color: #3B54A6;
@@ -393,6 +430,10 @@ body {
         font-family: 'Open Sans';
         color: #FFFFFF;
         background-color: #FF761A;
+    }
+
+    .infoTercera {
+        padding: 8% 10% 0% 13%;
     }
 
     .cajaTercerParte {
@@ -472,6 +513,42 @@ body {
     }
 }
 
+@media (min-width: 992px){
+    .nav-item {
+        margin: 0px 0px;
+    }
+
+    .logo {
+        width: 22px;
+        margin: 0% 24% 0% 5%;
+    }
+
+    .h2Menu {
+        font-size: 67%;
+        margin-right: 31px;
+    }
+
+    .fr-en {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 26px;
+    }
+
+    .fr {
+        font-size: 120%;
+        text-decoration: underline #FF761A;
+    }
+
+    .fren {
+        font-size: 120%;
+    }
+
+    .en {
+        font-size: 120%;
+    }
+}
+
+
 @media (min-width: 1080px) {
 
     .imgMusee {
@@ -487,12 +564,12 @@ body {
     }
 
     #tercerParte {
-        margin: 250px 92px 0px 92px;
+        margin: 250px 50px 0px 50px;
         height: 512px;
     }
 
     .cajaTercerParte {
-        width: 324px;
+        width: 380px;
         height: 411px;
         display: inline-table;
     }
@@ -501,6 +578,10 @@ body {
         vertical-align: middle;
         width: 700px;
         height: 500px;
+    }
+
+    .infoCuartaParte{
+        width: 120%;
     }
 
     .cuartaParte {
@@ -513,6 +594,10 @@ body {
         margin: 0% 0% 0% 1.5%;
     }
 
+    .infoCuartaParte {
+        width: 374px !important;
+    }
+
     .quintaParte {
         margin: 0px 61px;
     }
@@ -521,67 +606,86 @@ body {
         margin: 70px 0px 0px 21px;
     }
 
-   .cajaActuali{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0% 4%;
-   }
+    .h1Sexta {
+        width: 671px;
+        margin-left: 3px;
+        float: none;
+    }
 
-   .imgActuali{
-    display: grid;
-    width: 100%;
-    height: 433px;
-   }
+    .cajaActuali {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0% 4%;
+    }
 
-   .h3Actuali{
-    display: grid;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 20px;
-    margin: -10% 0% 0% 10%;
-    text-align: left;
-    color: #FFFFFF;
-   }
+    .imgActuali {
+        display: grid;
+        width: 100%;
+        height: 433px;
+    }
 
-   .cajaDeCards{
-    width: 115%;
-   }
+    .h3Actuali {
+        display: grid;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+        margin: -10% 0% 0% 10%;
+        text-align: left;
+        color: #FFFFFF;
+    }
 
-   .imgSeptima{
-    width: 83%;
-    height: 212px;
-   }
-   
-   .imgSeptima5{
-    display: grid;
-    width: 83%;
-    height: 212px;
-   }
+    .cajaDeCards {
+        width: 115%;
+    }
 
-   .h3Septima{
-    width: 70%;
-    margin: -19% 0% -4% 0%;
-   }
+    .imgSeptima {
+        width: 83%;
+        height: 212px;
+    }
 
-   .octavaParte{
-    margin: 0% 6%;
-   }
+    .imgSeptima5 {
+        display: grid;
+        width: 83%;
+        height: 212px;
+    }
 
-   .h1Octava{
-    width: 402px;
-   }
+    .h1Septima {
+        margin: 10% 75% 4% 0%;
+    }
 
-   .footer{
-    height: 100%;
-    margin-top: 0%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: baseline;
-   }
+    .h3Septima {
+        width: 70%;
+        margin: -19% 0% -4% 0%;
+    }
 
-   .redesSociales{
-    margin-top: 0%;
-   }
+    .fondoSeptima {
+        margin: 2% 0% 4% 0%;
+        width: 91%;
+    }
+
+    .octavaParte {
+        margin: 0% 6%;
+    }
+
+    .h1Octava {
+        width: 402px;
+    }
+
+    .h3Octava {
+        margin: -80% 9% 10%;
+    }
+
+    .footer {
+        height: 100%;
+        margin-top: 0%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+    }
+
+    .redesSociales {
+        margin-top: 0%;
+    }
 
 }
